@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Tomás de Aquino | A Ética das Virtudes e Lei Natural</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', 'Times New Roman', serif; line-height: 1.8; color: #3c2f2f; background: linear-gradient(to bottom, #f5f0e6 0%, #e8d9c0 100%); }
+        header { background: linear-gradient(90deg, #8b4513 0%, #a0522d 100%); color: #fdf8e3; padding: 1.5rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        nav { max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+        nav ul { display: flex; list-style: none; }
+        nav li { margin-left: 2rem; }
+        nav a { color: #fdf8e3; text-decoration: none; transition: 0.3s; }
+        nav a:hover { color: #ffd700; border-bottom: 2px solid #ffd700; }
+        .hero { background: linear-gradient(rgba(139,69,19,0.85), rgba(160,82,45,0.8)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"><rect fill="%23f5f0e6" width="1200" height="700"/><text x="600" y="350" font-family="serif" font-size="32" fill="%238b4513" text-anchor="middle" font-weight="bold">SUMMA THEOLOGIAE</text><circle cx="600" cy="400" r="150" fill="none" stroke="%23d2691e" stroke-width="3"/></svg>'); height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fdf8e3; padding: 0 2rem; }
+        .hero h1 { font-size: 4rem; margin-bottom: 1rem; text-shadow: 3px 3px 6px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.5rem; max-width: 900px; margin-bottom: 2rem; }
+        section { padding: 7rem 2rem 4rem; max-width: 1200px; margin: auto; }
+        h2 { text-align: center; font-size: 2.8rem; margin-bottom: 3rem; color: #8b4513; position: relative; font-style: italic; }
+        h2::after { content: ''; width: 120px; height: 4px; background: linear-gradient(90deg, #8b4513, #d2691e); margin: 1rem auto 0; display: block; border-radius: 2px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-bottom: 3rem; }
+        .card { background: #fdf8e3; border-radius: 15px; padding: 2.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: 0.4s; border-left: 5px solid #d2691e; }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+        .card i { font-size: 3.5rem; color: #8b4513; margin-bottom: 1.5rem; display: block; }
+        .virtude-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+        .virtude { background: white; padding: 2rem; border-radius: 12px; text-align: center; box-shadow: 0 8px 25px rgba(0,0,0,0.06); transition: 0.3s; }
+        .virtude:hover { background: #fdf8e3; }
+        .quote { font-style: italic; font-size: 1.3rem; text-align: center; max-width: 800px; margin: 3rem auto; padding: 2rem; background: rgba(255,215,0,0.1); border-left: 6px solid #ffd700; color: #5c4033; }
+        footer { background: #3c2f2f; color: #e8d9c0; text-align: center; padding: 3rem 2rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } nav { flex-direction: column; gap: 1rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-scroll"></i> São Tomás de Aquino
+            </div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#etica">Ética</a></li>
+                <li><a href="#virtudes">Virtudes</a></li>
+                <li><a href="#leis">Leis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1><i class="fas fa-crown"></i> São Tomás de Aquino</h1>
+        <p>O Doutor Angélico: União perfeita de Fé e Razão na busca pelo Bem Supremo através da Ética das Virtudes e Lei Natural (Suma Teológica I-II).</p>
+    </section>
+
+    <section id="biografia">
+        <h2>Vida e Obra</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>1225-1274</h3>
+                <p>Nascido em Roccasecca (Itália), frade dominicano, autor da monumental <em>Suma Teológica</em> e <em>Suma contra Gentios</em>. Canonizado em 1323.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-balance-scale"></i>
+                <h3>Integração Aristóteles-Cristo</h3>
+                <p>Sintetiza filosofia grega (Aristóteles) com teologia cristã: "A graça não destrói a natureza, mas a aperfeiçoa".</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-book"></i>
+                <h3>Legado Eterno</h3>
+                <p>Doutor da Igreja, patrono das universidades católicas. Sua ética influencia direito natural moderno.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="etica">
+        <h2>Fundamentos da Ética Tomista</h2>
+        <div class="quote">"Todo ato humano é bom quando ordenado pela razão à lei eterna; mau quando dela se desvia" (Suma Teológica).</div>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-seedling"></i>
+                <h3>Ética Teleológica</h3>
+                <p>O bem é o fim último (Deus). Virtudes aperfeiçoam a natureza humana para a beatitude.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-brain"></i>
+                <h3>Fé e Razão Unidas</h3>
+                <p>Razão descobre lei natural; fé eleva à graça. Não há contradição.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Bem Comum</h3>
+                <p>Sociedade ordenada para o bem de todos, guiada por leis justas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="virtudes">
+        <h2>Virtudes Cardeais e Teologais</h2>
+        <div class="virtude-grid">
+            <div class="virtude">
+                <i class="fas fa-eye" style="color: #8b4513; font-size: 2.5rem;"></i>
+                <h4>Prudência</h4>
+                <p>Razão prática: escolhe o meio certo para o bem.</p>
+            </div>
+            <div class="virtude">
+                <i class="fas fa-balance-scale" style="color: #a0522d; font-size: 2.5rem;"></i>
+                <h4>Justiça</h4>
+                <p>Dar a cada um o seu: direito natural.</p>
+            </div>
+            <div class="virtude">
+                <i class="fas fa-fist-raised" style="color: #d2691e; font-size: 2.5rem;"></i>
+                <h4>Fortalaleza</h4>
+                <p>Enfrentar males pelo bem maior.</p>
+            </div>
+            <div class="virtude">
+                <i class="fas fa-spa" style="color: #cd853f; font-size: 2.5rem;"></i>
+                <h4>Temperança</h4>
+                <p>Moderação nos prazeres.</p>
+            </div>
+            <div class="virtude">
+                <i class="fas fa-praying-hands" style="color: #ffd700; font-size: 2.5rem;"></i>
+                <h4>Fé, Esperança, Caridade</h4>
+                <p>Virtudes teologais infundidas por Deus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="leis">
+        <h2>A Hierarquia das Leis</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-infinity"></i>
+                <h3>Lei Eterna</h3>
+                <p>Providência divina ordenando o universo.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-leaf"></i>
+                <h3>Lei Natural</h3>
+                <p>"Fazer o bem, evitar o mal". Inclinações: vida, prole, sociedade (ST I-II, q.94).</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-gavel"></i>
+                <h3>Lei Humana</h3>
+                <p>Leis positivas devem derivar da natural para serem justas.</p>
+            </div>
+        </div>
+        <div class="quote">"A primeira regra da lei natural é: faça o bem e evite o mal" (Suma Teológica I-II, q.94, a.2).</div>
+    </section>
+
+    <footer>
+        <p><i class="fas fa-scroll"></i> Ana Beatriz Ferreira da Costa | 2° ano de Informática</p>
+    </footer>
+
+    <script>
+        // Scroll suave e highlight ativo
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header shrink no scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.style.padding = window.scrollY > 100 ? '1rem 0' : '1.5rem 0';
+        });
+    </script>
+</body>
+</html>
